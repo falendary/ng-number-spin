@@ -1,0 +1,31 @@
+{
+  "name": "ng-number-spin",
+  "version": "1.0.0",
+  "description": "Directive for numeric inputs, with customizable spin arrow buttons",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falendary/ng-number-spin"
+  },
+  "homepage": "https://github.com/falendary/ng-number-spin",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angularjs",
+    "input",
+    "number",
+    "spin"
+  ],
+  "author": "Sergey Zhitenev",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2"
+  }
+}
