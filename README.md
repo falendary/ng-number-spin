@@ -2,6 +2,11 @@
 
 ng-number-spin is a customizable directive for numeric inputs with spins for [Angular.js](http://angularjs.org)
 
+### Demo
+
+ng-number-spin [examples](http://falendary.github.io/ng-number-spin/example/)
+
+
 ### Installation
 
 ng-number-spin requires [Node.js](https://nodejs.org/) v4+ to run.
