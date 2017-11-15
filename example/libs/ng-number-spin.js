@@ -33,9 +33,6 @@ app.directive('numberSpin', [function () {
         '<a class="ns-plus"  data-ng-if="showSpinButtons"  data-ng-click="plus()">+</a>' +
         '<a class="ns-minus" data-ng-if="showSpinButtons"  data-ng-click="minus()">-</a> </div>',
         link: function (scope, elem, attrs) {
-
-            console.log('spinButtons', scope.spinButtons);
-
             if (scope.spinButtons == false) {
                 scope.showSpinButtons = false;
             } else {
